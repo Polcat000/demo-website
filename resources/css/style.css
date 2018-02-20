@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(img/mountains-clouds-forest-fog.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#welcome-txt1 {
+   
+    
+    color: #fff;
+    font-size: 350%;
+    font-weight: 300;
+    margin-top: 180px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 300px;
+    
+    
+    
+    
+        
+}
+
+#welcome-txt2{
+   
+    
+    color: #fff;
+    font-size: 350%;
+    font-weight: 300;
+    margin-top: 180px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 100px;
+  
+}
+
+#welcome-txt3{
+   
+    
+    color: #fff;
+    font-size: 350%;
+    font-weight: 200;
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 380px;
+   
+}
+
+
+
+
+.start-screen p1{
+     
+    animation:1s ease 1s normal forwards 1 fadein;
+-webkit-animation:1s ease 1s normal forwards 1 fadein;
+opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+.start-screen p2{
+     
+    animation:3s ease 2s normal forwards 1 fadein;
+-webkit-animation:3s ease 2s normal forwards 1 fadein;
+opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+.start-screen p3{
+     
+    animation:3s ease 3.5s normal forwards 1 fadein;
+-webkit-animation:3s ease 3.5s normal forwards 1 fadein;
+opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+    
+
+}
+
+.icons{
+     
+    animation:3s ease 4s normal forwards 1 fadein;
+-webkit-animation:3s ease 4s normal forwards 1 fadein;
+opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+
+
+ 
+
+
+
+
+
+.icons{
+    margin-top: 60px;
+    
+}
+#art{
+    /*margin-left: 350px;*/
+    text-decoration: none;
+    
+}
+#web-design{
+    /*margin-left: 200px;*/
+    text-decoration: none;
+    
+}
+#game-dev{
+    margin-left: 250px;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
